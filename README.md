@@ -15,13 +15,14 @@ To run the project, you need to have the following:
 
 ## Usage
 
-1. Clone the repository or download the project files.
+1. Download the project files.
 2. Open the project in your preferred IDE or navigate to the project directory in your terminal.
 3. Build the project to compile the Java classes.
 4. Run the 'Main' class to start the application.
 5. The application window will open, showing the title "Compressor-Decompressor" and two buttons: "Select file to compress" and "Select file to decompress".
 6. Click the "Select file to compress" button to choose a file you want to compress. After selecting the file, the application will compress it using the GZIP algorithm and display a success or error message.
 7. Click the "Select file to decompress" button to choose a compressed file you want to decompress. After selecting the file, the application will decompress it and save the decompressed file. A success or error message will be displayed.
+
 Note: 
 The compressed file will be saved in the same directory as the original file, with the extension '.gz'. The decompressed file will be saved in the same directory as the compressed file, without any file extension.
 
